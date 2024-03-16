@@ -35,7 +35,7 @@ button.addEventListener('click', () => {
     else if(+ssntp < 1 || +ssntp > 9999){
         feedBack.textContent = "The third part should have 4 digits and it should be from 0001 to 9999."
     }
-    else if(checker == Boolean(false)){
+    else if(isNaN(checker)){
         feedBack.textContent = "Please enter a valid SSN number(9 numbers and 2 hypens)"
         console.log(checker);
     }
