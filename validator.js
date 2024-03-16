@@ -42,8 +42,7 @@ button.addEventListener('click', () => {
     else{
         feedBack.textContent = `Entered SSN (${ssn}) is valid`
     }
-    
-    console.log(Boolean(checker));
+   
 
     
 })
